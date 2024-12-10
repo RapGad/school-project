@@ -1,0 +1,32 @@
+.bgCustom{
+  background-color: #291c0E;
+}
+.curve{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav-pills li a{
+  transition: .3s all ease-in-out;
+}
+
+.card,.backG{
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.nav-pills li a:hover{
+  background-color: #A78d78;
+  margin-left: 10px;
+}

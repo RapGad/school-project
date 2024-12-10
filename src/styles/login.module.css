@@ -1,0 +1,134 @@
+/* General Styles */
+.mainBody {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #291C0E, #6E473B);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E1D4C2;
+    width: 100%;
+    padding: 0;
+  }
+  
+  /* Container */
+  .modernLoginContainer {
+    max-width: 550px;
+    width: 100%;
+  }
+  
+  /* Glassmorphism Card */
+  .glassCard {
+    background: /* rgba(46, 34, 27, 0.8) */#fff;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid #BEB5A9;
+  }
+  
+  /* Logo Area */
+  .logoArea img {
+    max-width: 120px;
+    margin-bottom: 20px;
+    animation: fade-in 1s ease-out;
+  }
+  
+  /* Welcome Text */
+  .welcomeText {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #A78678;
+  }
+  
+  /* Input Group */
+  .inputGroup {
+    display: flex;
+    align-items: center;
+    background: rgba(190, 181, 169, 0.2);
+    border: 1px solid #BEB5A9;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .inputGroup i {
+    margin-right: 10px;
+    color: #A78678;
+  }
+  
+  .inputGroup input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  /* Button */
+  .btnLogin {
+    background: linear-gradient(135deg, #6E473B, #A78678);
+    color: #E1D4C2;
+    padding: .6rem 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .btnLogin:hover {
+    background: linear-gradient(135deg, #A78678, #6E473B);
+    transform: translateY(-3px);
+  }
+  
+  /* Forgot Password */
+  .forgotPassword {
+    color: #BEB5A9;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: underline;
+    color: #A78678;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Animations */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .glassCard {
+      padding: 20px;
+    }
+  
+    .welcomeText {
+      font-size: 1.2rem;
+    }
+  
+    .btnLogin {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
